@@ -1,0 +1,38 @@
+.text-container {
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gibberish {
+  .banner {
+    font-size: 2.2rem;
+    .insights {
+      color: $accentColor;
+    }
+  }
+  .gibberish-text {
+    margin-top: 4vh;
+    margin-right: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    color: $slightlyTransparentWhite;
+  }
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  .stat {
+    .stat-title {
+      font-weight: 400;
+      margin-top: 5px;
+      font-family: "Lexend Deca", sans-serif;
+      font-size: 15px;
+      color: $slightlyTransparentWhite;
+    }
+  }
+}

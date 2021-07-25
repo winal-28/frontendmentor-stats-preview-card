@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
-.card {
-  background: #1b1938;
-  height: 446px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 80vw;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.image-container,
-.text-container {
-  width: 50%;
-}
-
 .text-container {
   padding: 6%;
   display: -webkit-box;
@@ -30,19 +14,23 @@
           justify-content: space-between;
 }
 
-.text-container .gibberish .banner {
+.gibberish .banner {
   font-size: 2.2rem;
 }
 
-.text-container .gibberish .banner .insights {
+.gibberish .banner .insights {
   color: #aa5cdb;
 }
 
-.text-container .gibberish .gibberish-text {
-  margin-top: 5vh;
+.gibberish .gibberish-text {
+  margin-top: 4vh;
+  margin-right: 30px;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.text-container .stats {
+.stats {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,6 +41,30 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 80%;
+}
+
+.stats .stat .stat-title {
+  font-weight: 400;
+  margin-top: 5px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.card {
+  background: #1b1938;
+  height: 446px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vw;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-container,
+.text-container {
+  width: 50%;
 }
 
 .image-container {
