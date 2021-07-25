@@ -12,9 +12,8 @@
 body {
   color: $white;
   background: $veryDarkBlue;
-  display: flex;
+  display: grid;
   height: 100vh;
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  place-content: center;
 }
