@@ -1,4 +1,23 @@
 .card {
   background: $darkDesaturatedBlue;
-  height: 70vh;
+  height: 446px;
+  display: flex;
+  width: 80vw;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-container,
+.text-container {
+  width: 50%;
+}
+
+.text-container {
+  padding: 5%;
+}
+
+.image-container {
+  img {
+    width: 100%;
+  }
 }
