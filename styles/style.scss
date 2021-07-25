@@ -1,7 +1,7 @@
 @import "./variables";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
-
+@import "./card";
 * {
   padding: 0;
   margin: 0;
@@ -12,4 +12,9 @@
 body {
   color: $white;
   background: $veryDarkBlue;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
