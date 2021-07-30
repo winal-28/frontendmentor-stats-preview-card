@@ -20,14 +20,47 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .card {
-    min-height: 90vh;
+    margin-top: 10vh;
+    height: 900px;
     flex-direction: column-reverse;
     width: 80vw;
     overflow: visible;
     .image-container,
     .text-container {
       width: 100%;
+      height: 50%;
+    }
+    .image-container {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      overflow: hidden;
+    }
+    .text-container {
+      margin: 20px 0;
+      align-items: center;
+      .gibberish {
+        .banner {
+          text-align: center;
+        }
+        .gibberish-text {
+          text-align: center;
+          margin: 20px 40px;
+        }
+      }
+      .stats {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        .stat {
+          padding: 20px;
+        }
+      }
     }
   }
 }
