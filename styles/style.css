@@ -96,4 +96,20 @@ body {
   width: 100%;
   place-content: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .card {
+    min-height: 90vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 80vw;
+    overflow: visible;
+  }
+  .card .image-container,
+  .card .text-container {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
